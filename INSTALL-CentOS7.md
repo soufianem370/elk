@@ -120,6 +120,10 @@ output {
     }
 }
 ```
+###### creating service for logstash
+```
+sudo /usr/share/logstash/bin/system-install /etc/logstash/startup.options systemd
+```
 ###### Enable and Start logstash service
 ```
 systemctl enable logstash
